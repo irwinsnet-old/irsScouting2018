@@ -1,0 +1,8 @@
+**/auth.py
+*.pyc
+.idea
+*.iml
+Server/Data
+irs-scout/out
+irs-scout/gen
+irs-scout/bin

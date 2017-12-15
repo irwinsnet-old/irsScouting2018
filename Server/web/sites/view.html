@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>IRS Scouting Viewer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="web/scripts/styles.css">
+		<script type="text/javascript" src="web/scripts/showteam.js"></script>
+    </head>
+    <body>
+        <h1>IRS Scouting Viewer</h1>
+        {Back}
+		
+		<h3><a href="/view/selection">Alliance Selection</a></h3>
+
+        <fieldset>
+            <h3>Data</h3>
+            <a href="/web/images/Six team.png">Six Team</a><br>
+			<a href="/view/output">Output Excel</a><br>
+        </fieldset>
+		
+		<h3>Team Schedule</h3>
+		
+		<fieldset>
+			<input type="text" id="team" name="Team Number" value=""/>
+			<input type="submit" value="Show Team" onclick="loadTeam();"/>
+			<h5 id="matches"></h5>
+		</fieldset>
+    </body>
+</html>
